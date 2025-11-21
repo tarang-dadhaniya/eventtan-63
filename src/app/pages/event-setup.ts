@@ -1649,4 +1649,12 @@ export class EventSetupComponent implements OnInit {
   isFeatureActive(featureId: string): boolean {
     return this.activeFeatures.includes(featureId);
   }
+
+  getFeatureLabel(featureId: string): string {
+    if (featureId === "schedule") {
+      return "Schedule";
+    }
+    const feature = this.inactiveFeatures.find((f) => f.id === featureId);
+    return feature ? feature.label : "";
+  }
 }
