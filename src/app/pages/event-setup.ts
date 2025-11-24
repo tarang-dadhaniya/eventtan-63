@@ -1687,7 +1687,8 @@ export class EventSetupComponent implements OnInit {
     }
     const feature = this.inactiveFeatures.find((f) => f.id === featureId);
     if (feature) {
-      return this.getSafeHtml(feature.icon);
+      const iconWithBlueColor = feature.icon.replace(/#686868/g, '#049AD0');
+      return this.getSafeHtml(iconWithBlueColor);
     }
     return this.getSafeHtml("");
   }
