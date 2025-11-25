@@ -2217,6 +2217,7 @@ export class EventSetupComponent implements OnInit {
     private route: ActivatedRoute,
     private sanitizer: DomSanitizer,
     private scheduleService: ScheduleService,
+    private exhibitorService: ExhibitorService,
   ) {}
 
   getSafeHtml(html: string): SafeHtml {
