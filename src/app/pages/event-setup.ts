@@ -2083,10 +2083,39 @@ const EVENT_OVERVIEW_ICON = `<svg width="22" height="22" viewBox="0 0 22 22" fil
                   </div>
                 </div>
 
-                <!-- Footer with divider and Next button -->
+                <!-- Footer with Back and Next buttons -->
                 <div
-                  class="px-8 py-6 border-t border-[#CED4DA] flex justify-end"
+                  class="px-8 py-6 border-t border-[#CED4DA] flex justify-between items-center"
                 >
+                  <button
+                    (click)="onBack()"
+                    class="flex items-center gap-2 px-5 py-2 bg-[#DEE1EB] hover:bg-[#CED3E0] text-[#4C546C] rounded font-semibold transition-colors"
+                  >
+                    <svg
+                      width="18"
+                      height="18"
+                      viewBox="0 0 18 18"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14.25 9H3.75"
+                        stroke="#4C546C"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M9 14.25L3.75 9L9 3.75"
+                        stroke="#4C546C"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <span>Back</span>
+                  </button>
+
                   <button
                     (click)="onNext()"
                     class="flex items-center gap-2 px-5 py-2 bg-[#009FD8] hover:bg-[#0385b5] text-white rounded font-semibold transition-colors"
