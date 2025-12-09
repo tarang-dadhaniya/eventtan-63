@@ -3181,12 +3181,14 @@ export class EventSetupComponent implements OnInit {
   speakers: Speaker[] = [];
   information: Information[] = [];
   sponsors: Sponsor[] = [];
+  socialMediaList: SocialMediaEntry[] = [];
   searchQuery: string = "";
   editMode = false;
   editModeExhibitor = false;
   editModeSpeaker = false;
   editModeInformation = false;
   editModeSponsor = false;
+  editModeSocialMedia = false;
   editingSchedule: any = null;
   editingExhibitor: any = null;
   editingSpeaker: any = null;
