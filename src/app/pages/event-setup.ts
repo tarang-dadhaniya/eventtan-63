@@ -15,6 +15,7 @@ import { ConfirmDeleteModalComponent } from "../components/confirm-delete-modal"
 import { AboutDetailModalComponent } from "../components/about-detail-modal";
 import { AddInformationModalComponent } from "../components/add-information-modal";
 import { AddSponsorsModalComponent } from "../components/add-sponsors-modal";
+import { AddSocialMediaModalComponent } from "../components/add-social-media-modal";
 import { ScheduleService, Schedule } from "../services/schedule.service";
 import { ExhibitorService, Exhibitor } from "../services/exhibitor.service";
 import { SpeakerService, Speaker } from "../services/speaker.service";
