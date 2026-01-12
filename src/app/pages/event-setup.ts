@@ -325,7 +325,7 @@ const EVENT_OVERVIEW_ICON = `<svg width="22" height="22" viewBox="0 0 22 22" fil
                       >Banner</label
                     >
                     <div
-                      class="w-full h-48 md:h-56 lg:h-64 border border-[#CED4DA] rounded flex items-center justify-center bg-white cursor-pointer hover:bg-gray-50 transition-colors overflow-hidden"
+                      class="w-full h-40 sm:h-48 md:h-56 lg:h-64 border border-[#CED4DA] rounded flex items-center justify-center bg-white cursor-pointer hover:bg-gray-50 transition-colors overflow-hidden"
                       (click)="bannerInput.click()"
                     >
                       <img
