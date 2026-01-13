@@ -78,12 +78,8 @@ import { WebView } from "../services/web-view.service";
                   <option value="" disabled selected hidden>
                     Please Select
                   </option>
-                  <option value="Hall A">Hall A</option>
-                  <option value="Hall B">Hall B</option>
-                  <option value="Hall C">Hall C</option>
-                  <option value="Main Lobby">Main Lobby</option>
-                  <option value="Conference Room 1">Conference Room 1</option>
-                  <option value="Conference Room 2">Conference Room 2</option>
+                  <option value="Mobile">Mobile</option>
+                  <option value="Web">Web</option>
                 </select>
                 <div
                   class="absolute right-5 top-1/2 -translate-y-1/2 pointer-events-none"
